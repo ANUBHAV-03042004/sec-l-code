@@ -1,0 +1,6 @@
+a=int(input("enter the total number of heads="))
+b=int(input("enter the total number of legs="))
+g=((b-2*a)//2)
+print("No. of goats are=",g)
+h=(a-g)
+print("No. of hens are=",h)
